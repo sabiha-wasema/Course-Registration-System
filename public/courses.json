@@ -1,0 +1,81 @@
+[
+    {
+      "id":1,
+      "image": "https://i.ibb.co/B36bKnH/course5.png",
+      "course_title": "introduction to computer science",
+      "credit_hour": 3,
+      "price": 99.99,
+      "description": "This course provides an introduction to the fundamental concepts of computer science, including algorithms, data structures, and programming languages. No prior experience required."
+    },
+    {
+      "id":2,
+      "image": "https://i.ibb.co/23dKZTJ/course1.jpg",
+      "course_title": "web development fundamentals",
+      "credit_hour": 4,
+      "price": 129.99,
+      "description": "Learn the basics of web development, including HTML, CSS, and JavaScript. By the end of this course, you'll be able to create and deploy your own websites."
+    },
+    {
+      "id":3,
+      "image": "https://i.ibb.co/zrRm1c3/course3.jpg",
+      "course_title": "machine learning essentials",
+      "credit_hour": 5,
+      "price": 149.99,
+      "description": "Explore the foundations of machine learning, including supervised and unsupervised learning algorithms. Gain practical experience through hands-on projects and exercises."
+    },
+    {
+      "id":4,
+      "image": "https://i.ibb.co/rG6t9Ny/course4.jpg",
+      "course_title": "data structures and algorithms",
+      "credit_hour": 4,
+      "price": 119.99,
+      "description": "This course covers advanced data structures and algorithms, including graphs, trees, sorting, and searching algorithms. Essential for software engineers and computer scientists."
+    },
+    {
+      "id":5,
+      "image": "https://i.ibb.co/B36bKnH/course5.png",
+      "course_title": "iOS app development",
+      "credit_hour": 4,
+      "price": 139.99,
+      "description": "Learn to develop iOS applications using Swift programming language and Apple's development tools. Build your own apps and publish them on the App Store."
+    },
+    {
+      "id":6,
+      "image": "https://i.ibb.co/nn1hRz2/course6.jpg",
+      "course_title": "network security fundamentals",
+      "credit_hour": 3,
+      "price": 109.99,
+      "description": "Gain a comprehensive understanding of network security principles and techniques. Learn to secure networks, detect vulnerabilities, and prevent cyber attacks."
+    },
+    {
+      "id":7,
+      "image": "https://i.ibb.co/b3G7CqR/course8.jpg",
+      "course_title": "digital marketing strategies",
+      "credit_hour": 3,
+      "price": 99.99,
+      "description": "Explore digital marketing channels and strategies, including SEO, SEM, social media marketing, email marketing, and content marketing. Grow your online presence and reach your target audience effectively."
+    },
+    {
+      "id":8,
+      "image": "https://i.ibb.co/B36bKnH/course5.png",
+      "course_title": "financial accounting basics",
+      "credit_hour": 4,
+      "price": 119.99,
+      "description": "Learn the fundamentals of financial accounting, including financial statements, balance sheets, income statements, and cash flow analysis. Essential for understanding business finances."
+    },
+    {
+      "id":9,
+      "image": "https://i.ibb.co/sqFd27X/course9.jpg",
+      "course_title": "introduction to psychology",
+      "credit_hour": 3,
+      "price": 89.99,
+      "description": "This course provides an overview of psychology, including its history, major theories, research methods, and applications. Gain insights into human behavior and mental processes."
+    }
+  ]
+  
+
+  
+
+
+
+
