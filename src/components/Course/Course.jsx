@@ -1,9 +1,10 @@
+import PropTypes from "prop-types";
 import { IoBookOutline } from "react-icons/io5";
 import { FaDollarSign } from "react-icons/fa";
 
-const Course = ({ course,handleAddToCart }) => {
+const Course = ({ course, handleAddToCart }) => {
   //   console.log(course);
-  const { image, id, course_title, credit_hour, description, price } = course;
+  const { image,  course_title, credit_hour, description, price } = course;
   return (
     <div className="bg-white  p-3 rounded-lg grid grid-rows-[auto,1fr,auto]">
       <div className="">
@@ -35,9 +36,10 @@ const Course = ({ course,handleAddToCart }) => {
             </p>
           </div>
           <div className="flex justify-center items-center my-2">
-            <button 
-            onClick={()=>handleAddToCart(course)}
-            className="bg-[#2F80ED] text-white font-semibold w-full py-2 rounded-lg">
+            <button
+              onClick={() => handleAddToCart(course)}
+              className="bg-[#2F80ED] text-white font-semibold w-full py-2 rounded-lg"
+            >
               Select
             </button>
           </div>
@@ -45,6 +47,16 @@ const Course = ({ course,handleAddToCart }) => {
       </div>
     </div>
   );
+};
+
+Course.propTypes = {
+  handleAddToCart: PropTypes.func,
+  course: PropTypes.object,
+  image: PropTypes.string,
+  course_title: PropTypes.string,
+  credit_hour: PropTypes.number,
+  description: PropTypes.string,
+  price: PropTypes.number,
 };
 
 export default Course;

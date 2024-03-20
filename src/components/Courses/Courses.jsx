@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Course from "../Course/Course";
 
 const Courses = ({ handleAddToCart, courses }) => {
@@ -14,6 +15,11 @@ const Courses = ({ handleAddToCart, courses }) => {
       </div>
     </div>
   );
+};
+
+Courses.propTypes = {
+  handleAddToCart: PropTypes.func,
+  courses: PropTypes.array
 };
 
 export default Courses;

@@ -1,11 +1,9 @@
-import { useState } from "react";
-import { IoBookOutline } from "react-icons/io5";
+import PropTypes from 'prop-types';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ carts ,remainingHours,remainingCreditHour,totalPrice}) => {
  
-
   return (
     <div className="bg-white p-6 rounded-lg">
       <div>
@@ -55,5 +53,13 @@ const Cart = ({ carts ,remainingHours,remainingCreditHour,totalPrice}) => {
     </div>
   );
 };
+
+Cart.propTypes = {
+   carts: PropTypes.object,
+   remainingHours: PropTypes.number,
+   remainingCreditHour: PropTypes.number,
+   totalPrice: PropTypes.number
+
+  };
 
 export default Cart;
