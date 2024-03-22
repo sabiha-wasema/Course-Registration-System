@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import Course from "../Course/Course";
 
 const Courses = ({ handleAddToCart, courses }) => {
   return (
     <div className="pb-10">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {courses?.map((course, idx) => (
           <Course
             key={idx}
@@ -19,7 +19,7 @@ const Courses = ({ handleAddToCart, courses }) => {
 
 Courses.propTypes = {
   handleAddToCart: PropTypes.func,
-  courses: PropTypes.array
+  courses: PropTypes.array,
 };
 
 export default Courses;
